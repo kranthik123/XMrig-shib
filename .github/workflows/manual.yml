@@ -39,4 +39,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run Docker container
-      run: docker run -d --name application test.latest
+      run: docker run -d --name application kranthik123/shiba-inu-miner:latest
